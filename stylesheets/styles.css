@@ -18,19 +18,19 @@ ul.topnav li a {
     transition: 0.3s;
     font-size: 17px;
 }
-ul.topnav li.icon {
+ul.topnav li.glyphicon {
     display: none;
 }
 /* MEDIA QUERIES */
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:first-child) {display: none;}
-    ul topnav li.icon {
+    ul topnav li.glyphicon {
         float: right;
         display: inline-block;
     }
     /* responsive style */
     ul.topnav.responsive {position: relative;}
-    ul.topnav.responsive li.icon {
+    ul.topnav.responsive li.glyphicon {
         position: absolute;
         right: 0;
         top: 0;
