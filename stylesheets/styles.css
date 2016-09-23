@@ -23,7 +23,7 @@ ul.topnav li.icon {
 }
 /* MEDIA QUERIES */
 @media screen and (max-width: 680px) {
-    ul.topnav li {display: none;}
+    ul.topnav li:not(:first-child) {display: none;}
     ul topnav li.icon {
         float: right;
         display: inline-block;
